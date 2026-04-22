@@ -1,11 +1,12 @@
 # AssistGen - 基于大语言模型构建的智能客服系统
 
-一个基于 FastAPI 和 Vue 3 构建的前后端分离的智能客服助手项目，支持多种大语言模型，如DeepSeek V3，Qwen2.5系列，Llama3系列等。涵盖了 Agent、RAG 在智能客服领域的主流应用落地需求场景。 
+一个基于 FastAPI 和 Vue 3 构建的前后端分离的智能客服助手项目，支持多种大语言模型，如DeepSeek V3，Qwen2.5系列，Llama3系列等。涵盖了 Agent、RAG 在智能客服领域的主流应用落地需求场景。 最终效果参考如下：<img width="366" height="423" alt="cae2b1ce0c5ce458a38d9f20e319f792" src="https://github.com/user-attachments/assets/7319d6ab-9eb3-4b5a-b7fd-9ad5c8ff23ea" />
+
 
 ## 功能特性
 
 ### 1. 通用问答能力
-- **支持 DeepSeek V3 在线API**
+- **支持 DeepSeek V3 等在线API**
 - **支持 使用 Ollama 接入任意对话模型，如Qwen2.5系列，Llama3系列**
 - **灵活的模配置**
 
@@ -41,7 +42,7 @@ pip install -r requirements.txt
 
 ### 2. 配置环境变量
 
-复制 `env.example` 文件到 `llm_backend/.env` 文件中，并根据实际情况修改配置：
+参考 `env.example` 文件， `llm_backend/.env` 根据实际情况修改配置：
 
 ```env
 # LLM 服务配置
